@@ -12,7 +12,7 @@ My aim is to learn how to write good and beautiful code. My strengths are teamwo
 
 ## Skills
 
-HTML5, CSS3, bootstrap4, Git, VS Code
+HTML5, CSS3, bootstrap4, Git, VS Code, CMS
 
 ## Exaple
 
