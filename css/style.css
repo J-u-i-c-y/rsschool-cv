@@ -128,7 +128,9 @@ aside {
 .left-side > h3 {
     margin-left: 70px;
 }
-
+ul {
+    padding: 0;
+}
 
 .left-side .icons {
     margin-right: 30px;
@@ -154,6 +156,9 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+.left-side .contact .contact-links li {
+    list-style-type: none;
 }
 
 .left-side .contact a,
@@ -201,6 +206,9 @@ aside {
 .right-side header {
     height: 250px;
 }
+.right-side footer {
+    margin-bottom: 35px;
+}
 
 .right-side h1 {
     font-size: 70px;
@@ -242,6 +250,12 @@ aside {
     align-items: center;
     margin-bottom: 20px;
 }
+.right-side .skills > p{
+    color: #0067de;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 20px 40px 0;
+}
 
 .right-side .skill-name {
     width: 200px;
@@ -270,10 +284,6 @@ aside {
     border-radius: 20px;
 }
 
-.right-side .skills .round.bootstrap {
-    right: 100px;
-}
-
 .right-side .skills .round.git {
     right: 100px;
 }
@@ -285,7 +295,9 @@ aside {
 aside.right-side > div {
     margin-bottom: 50px;
 }
-
+aside.right-side .experience {
+    margin-bottom: 10px;
+}
 
 .right-side .interests-names {
     display: flex;
