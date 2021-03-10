@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-ExtraBold.eot');
+    src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'),
+        url('Poppins/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Poppins/Poppins-ExtraBold.woff') format('woff'),
+        url('Poppins/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Thin.eot');
+    src: local('Poppins Thin'), local('Poppins-Thin'),
+        url('Poppins/Poppins-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Poppins/Poppins-Thin.woff') format('woff'),
+        url('Poppins/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Black.eot');
+    src: local('Poppins Black'), local('Poppins-Black'),
+        url('Poppins/Poppins-Black.eot?#iefix') format('embedded-opentype'),
+        url('Poppins/Poppins-Black.woff') format('woff'),
+        url('Poppins/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Medium.eot');
+    src: local('Poppins Medium'), local('Poppins-Medium'),
+        url('Poppins/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Poppins/Poppins-Medium.woff') format('woff'),
+        url('Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-ExtraLight.eot');
+    src: local('Poppins ExtraLight'), local('Poppins-ExtraLight'),
+        url('Poppins/Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Poppins/Poppins-ExtraLight.woff') format('woff'),
+        url('Poppins/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-SemiBold.eot');
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+        url('Poppins/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Poppins/Poppins-SemiBold.woff') format('woff'),
+        url('Poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Light.eot');
+    src: local('Poppins Light'), local('Poppins-Light'),
+        url('Poppins/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('Poppins/Poppins-Light.woff') format('woff'),
+        url('Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+h3 {
+    color: #0067de;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 20px 40px 0;
+}
+
+p {
+    line-height: 20px;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+aside {
+    padding: 30px;
+}
+
+.left-side {
+    width: 38%;
+    background-color: #E5F1FF;
+}
+
+.left-side .about,
+.left-side .contact {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.left-side .education {
+    display: flex;
+}
+
+.left-side > h3 {
+    margin-left: 70px;
+}
+ul {
+    padding: 0;
+}
+
+.left-side .icons {
+    margin-right: 30px;
+}
+
+.left-side .icons img {
+    background: #0067de;
+    width: 40px;
+    padding: 8px;
+    /* margin-top: 40px; */
+    border-radius: 20px;
+}
+
+.left-side .contact .icons {
+    margin-right: 30px;
+    width: 40px;
+    padding: 0px 0;
+    border-radius: 20px;
+    background: #0067de;
+}
+
+.left-side .contact .contact-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.left-side .contact .contact-links li {
+    list-style-type: none;
+}
+
+.left-side .contact a,
+.right-side .text a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.left-side .contact .icons img {
+    width: 40px;
+    padding: 8px;
+    margin: 0px 0px;
+    height: 40px;
+}
+
+.left-side .image {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 125px;
+    border: 5px solid #0067DE;
+    overflow: hidden;
+    margin: 0 auto 50px;
+}
+
+.left-side div img {
+    width: 100%;
+}
+
+.left-side .education p {
+    margin: 10px 0;
+}
+
+.left-side .education .specialty {
+    color: #363636;
+}
+
+.left-side .education .education-place {
+    margin-bottom: 40px;
+}
+
+.right-side {
+    width: 62%;
+}
+
+.right-side header {
+    height: 250px;
+}
+.right-side footer {
+    margin-bottom: 35px;
+}
+
+.right-side h1 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 70px;
+    margin-bottom: 0;
+    margin-top: 48px;
+    color: #363636;
+}
+
+.right-side h2 {
+    font-weight: 400;
+    font-size: 35px;
+    margin: 0;
+    color: #363636;
+    margin-bottom: 48px;
+}
+
+.right-side h1 > span {
+    color: #0067de;
+    font-weight: 700;
+}
+
+.right-side .experience .position {
+    color: #282828;
+    font-size: 22px;
+}
+
+.right-side .experience .text {
+    width: 60%;
+}
+
+.right-side .experience .work-place p {
+    margin-bottom: 15px;
+}
+
+.right-side .skills-desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.right-side .skills > p{
+    color: #0067de;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 20px 40px 0;
+}
+
+.right-side .skill-name {
+    width: 200px;
+    font-size: 20px;
+}
+
+.right-side .skill-lvl {
+    position: relative;
+}
+
+.right-side .skills .line {
+    border: 3px solid #0067de;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 3px;
+}
+
+.right-side .skills .round {
+    width: 20px;
+    height: 20px;
+    background: #0067de;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 60px;
+    border-radius: 20px;
+}
+
+.right-side .skills .round.git {
+    right: 100px;
+}
+
+.right-side .skills .round.js {
+    right: 150px;
+}
+
+aside.right-side > div {
+    margin-bottom: 50px;
+}
+aside.right-side .experience {
+    margin-bottom: 10px;
+}
+
+.right-side .interests-names {
+    display: flex;
+    width: 80%;
+}
+
+.right-side .interests-names .interest-name {
+   color: #707070;
+   width: 150px;
+}
