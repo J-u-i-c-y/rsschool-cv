@@ -150,19 +150,6 @@ li {
     color: #e74c3c;
 }
 
-.projects ul li {
-    margin-bottom: 10px;
-}
-
-.projects a {
-    color: #3498db;
-    text-decoration: none;
-}
-
-.projects a:hover {
-    text-decoration: underline;
-}
-
 footer {
     margin-top: 40px;
     padding-top: 20px;
