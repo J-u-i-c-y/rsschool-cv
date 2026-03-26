@@ -1,6 +1,6 @@
 # Andrei Goncharenko
 
-![Photo](___photo_url_or_path___)
+![Photo](https://avatars.githubusercontent.com/u/35891887?v=4&size=64)
 
 ## Contacts
 - **Email:** co4hbly@yandex.by
